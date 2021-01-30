@@ -1,0 +1,2 @@
+# AwesomeStyleGAN
+Awesome StyleGAN models
