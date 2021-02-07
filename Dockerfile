@@ -17,6 +17,8 @@ COPY . /workdir/
 RUN cd /workdir && pip install --no-cache-dir -r requirements.txt
 
 RUN cd /workdir && git clone https://github.com/NVlabs/stylegan2-ada.git
-RUN cd /workdir && wget https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/pretrained/ffhq.pkl -O models/nvidia-stylegan2-ada-ffhq.pkl
+RUN cd /workdir && git clone https://github.com/NVlabs/stylegan2-ada-pytorch.git
+RUN cd /workdir && wget https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada/pretrained/ffhq.pkl -O models/nvidia-stylegan2-ada-ffhq-tf.pkl
+RUN cd /workdir && wget https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/ffhq.pkl -O models/nvidia-stylegan2-ada-ffhq-pt.pkl
 
 WORKDIR /workdir

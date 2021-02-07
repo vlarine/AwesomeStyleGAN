@@ -3,5 +3,9 @@ requests==2.22.0
 Pillow==6.2.1
 h5py==2.9.0
 imageio==2.9.0
-imageio-ffmpeg==0.4.2
+imageio-ffmpeg==0.4.3
 tqdm==4.49.0
+pyspng==0.1.0
+torch==1.7
+click==7.1.2
+Ninja==1.10

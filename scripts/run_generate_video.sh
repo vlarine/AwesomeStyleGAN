@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=0 python3 generate_video.py \
-    --network=models/nvidia-stylegan2-ada-ffhq.pkl \
+    --network=models/nvidia-stylegan2-ada-ffhq-tf.pkl \
     --outdir=frames \
     --seeds=42-45 \
     --steps=100 \
