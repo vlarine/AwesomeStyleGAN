@@ -52,3 +52,15 @@ An example script usage is in the [scripts folder](scripts):
 * [Pytorch script](scripts/run_generate_video_pytorch.sh)
 
 
+### Video with sound 
+
+Instead of linear interpolation you can use sine interpolation. There is an example of viddeo with beat detection from [Aubio](https://github.com/aubio/aubio) library.
+
+* [Run script](scripts/run_generate_video_beats.sh)
+* [Input audio file](media/beats.wav)
+* [Result video file](media/beats.mp4)
+
+There is an [another example](https://www.tiktok.com/@vlarine/video/6927257593178033413) of video with beat detection in the wild.
+
+
+

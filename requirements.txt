@@ -9,3 +9,4 @@ pyspng==0.1.0
 torch==1.7
 click==7.1.2
 Ninja==1.10
+aubio==0.4.9
